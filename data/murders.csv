@@ -1,0 +1,26 @@
+state,abb,region,population,PopulationDensity,murders,gunmurders,gunownership
+Alabama,AL,South,4779736,94.65,199,135,0.517
+Arizona,AZ,West,6392017,57.05,352,232,0.311
+California,CA,West,37253956,244.2,1811,1257,0.213
+Colorado,CO,West,5029196,49.33,117,65,0.347
+Connecticut,CT,Northeast,3574097,741.4,131,97,0.167
+Florida,FL,South,19687653,360.2,987,669,0.245
+Georgia,GA,South,9920000,172.5,527,376,0.403
+Illinois,IL,North Central,12830632,231.9,453,364,0.202
+Indiana,IN,North Central,6483802,182.5,198,142,0.391
+Kentucky,KY,South,4339367,110,180,116,0.477
+Louisiana,LA,South,4533372,105,437,351,0.441
+Maryland,MD,South,5773552,606.2,424,293,0.213
+Massachusetts,MA,Northeast,6547629,852.1,209,118,0.126
+Michigan,MI,North Central,9883640,174.8,558,413,0.384
+Missouri,MO,North Central,5988927,87.26,419,321,0.417
+New Jersey,NJ,Northeast,8791894,1189,363,246,0.123
+New York,NY,Northeast,19378102,415.3,860,517,0.18
+North Carolina,NC,South,9535483,200.6,445,286,0.413
+Ohio,OH,North Central,11536504,282.5,460,310,0.324
+Oklahoma,OK,South,3751351,55.22,188,111,0.429
+Pennsylvania,PA,Northeast,12702379,285.3,646,457,0.347
+Tennessee,TN,South,6346105,156.6,356,219,0.439
+Texas,TX,South,25145561,98.07,1246,805,0.359
+Virginia,VA,South,8001024,207.3,369,250,0.351
+Wisconsin,WI,North Central,5686986,105.2,151,97,0.444

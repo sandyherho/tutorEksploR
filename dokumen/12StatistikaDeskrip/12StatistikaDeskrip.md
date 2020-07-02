@@ -129,8 +129,10 @@ Jenis rata - rata:
 ### Rata - rata aritmatika
 
 Rata - rata aritmatika dari suatu sampel adalah penjumlahan dari seluruh sampel, dibagi dengan ukuran sampel.
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_{i}
+$$
 
-$$\bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_{i}$$
 
 
 ```R
@@ -179,8 +181,10 @@ rata2
 ### Rata - rata geometri
 
 Rata - rata geometri didefinisikan sebagai akar ke-$n$ dari perkalian seluruh sampel.
+$$
+RG = \sqrt[n]{\prod_{i=1}^{n}x_{i}}
+$$
 
-$$RG = \sqrt[n]{\prod_{i=1}^{n}x_{i}}$$
 
 
 ```R
@@ -269,7 +273,10 @@ rg - 100
 
 Rata - rata harmonik merupakan kebalikan dari rata - rata terbalik dari sampel:
 
-$$\frac{1}{H} = \frac{1}{n}\sum_{i=1}^{n}\frac{1}{x_{i}}\text{ dengan } x_{i} > 0$$
+$$
+\frac{1}{H} = \frac{1}{n}\sum_{i=1}^{n}\frac{1}{x_{i}}\text{ dengan } x_{i} > 0
+$$
+
 
 
 ```R
@@ -289,9 +296,16 @@ rata2harm
 
 Median: nilai tengah suatu sampel yang telah diurutkan.
 * Pada sampel ganjil:
-$$x_{\frac{n + 1}{2}}$$
+  $$
+  x_{\frac{n + 1}{2}}
+  $$
+  
+
 * Pada sampel genap:
-$$\frac{x_{\frac{n}{2}} + x_{\frac{n}{2}+1}}{2}$$
+  $$
+  \frac{x_{\frac{n}{2}} + x_{\frac{n}{2}+1}}{2}
+  $$
+  
 
 Modus merupakan nilai yang paling sering muncul di dalam suatu sampel.
 * Suatu sampel dapat mempunyai sebuah modus, lebih dari satu modus, atau tidak mempunyai modus sama sekali.
@@ -416,9 +430,11 @@ Kuartil merupakan istilah statistik yang digunakan untuk mendeskripsikan pembagi
 * Kuartil digunakan untuk menghitung jangkauan antar kuartil (IQR = Q1 - Q3) guna menghitung variabilitas di sekitar median.
 * Setiap kuartil memuat 25% dari total data.
 
-
 Untuk mencari letak kuartil, gunakan persamaan:
-$$Q_{i} = \frac{i(n+1)}{4}\text{ dengan } i = 1,2,3$$
+$$
+Q_{i} = \frac{i(n+1)}{4}\text{ dengan } i = 1,2,3
+$$
+
 
 
 ```R
@@ -495,7 +511,11 @@ Digunakan untuk mengukur variabilitas dari suatu data atau akurasi dari paramete
 * Varian: merupakan ukuran sebaran antar elemen di dalam sampel.
 * Standar deviasi: merupakan akar kuadrat dari varian.
 
-$$s^2 = \frac{\sum_{i=1}^{n} (\bar{x} - x_{i} )^{2}}{n-1}$$
+$$
+s^2 = \frac{\sum_{i=1}^{n} (\bar{x} - x_{i} )^{2}}{n-1}​
+$$
+
+
 
 
 ```R
@@ -545,7 +565,7 @@ sd(lagu) # std
 library(dplyr)
 ```
 
-    
+
     Attaching package: ‘dplyr’
     
     The following objects are masked from ‘package:stats’:
@@ -555,7 +575,7 @@ library(dplyr)
     The following objects are masked from ‘package:base’:
     
         intersect, setdiff, setequal, union
-    
+
 
 
 
@@ -624,8 +644,9 @@ sd(as.vector(ibmprice$Price))
 * Di dalam dunia finansial, korelasi dapat mengukur pergerakan harga saham. 
 
 Korelasi:
-$$r = \frac{\sum (x-\bar{x}) (y-\bar{y})}{\sqrt{\sum (x-\bar{x})^{2}} \sqrt{(y-\bar{y})^{2}}}$$
-
+$$
+r = \frac{\sum (x-\bar{x}) (y-\bar{y})}{\sqrt{\sum (x-\bar{x})^{2}} \sqrt{(y-\bar{y})^{2}}}​
+$$
 Hasil korelai selalu berada di antara -1 hingga +1
 
 * Korelasi positif menunjukkan bahwa tren kedua data berada pada arah yang sama.
@@ -737,9 +758,9 @@ cor.test(geprice_vec,ibmprice_vec, method='pearson')
 ```
 
 
-    
-    	Pearson's product-moment correlation
-    
+​    
+​    	Pearson's product-moment correlation
+​    
     data:  geprice_vec and ibmprice_vec
     t = 2.416, df = 478, p-value = 0.01607
     alternative hypothesis: true correlation is not equal to 0
@@ -757,9 +778,9 @@ cor.test(geprice_vec,ibmprice_vec, method='spearman')
 ```
 
 
-    
-    	Spearman's rank correlation rho
-    
+​    
+​    	Spearman's rank correlation rho
+​    
     data:  geprice_vec and ibmprice_vec
     S = 15362788, p-value = 0.0002528
     alternative hypothesis: true rho is not equal to 0
@@ -775,9 +796,9 @@ cor.test(geprice_vec,ibmprice_vec, method='kendall')
 ```
 
 
-    
-    	Kendall's rank correlation tau
-    
+​    
+​    	Kendall's rank correlation tau
+​    
     data:  geprice_vec and ibmprice_vec
     z = 3.9796, p-value = 6.902e-05
     alternative hypothesis: true tau is not equal to 0

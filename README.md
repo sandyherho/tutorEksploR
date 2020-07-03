@@ -1,5 +1,8 @@
 # Tutorial eksplorasi data menggunakan R
 
+[![DOI](https://zenodo.org/badge/240019119.svg)](https://zenodo.org/badge/latestdoi/240019119)
+
+
 oleh:
 
 [Sandy H.S. Herho](mailto:sandy.herho@igdore.org)

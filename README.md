@@ -2,12 +2,13 @@
 
 [![DOI](https://zenodo.org/badge/240019119.svg)](https://zenodo.org/badge/latestdoi/240019119)
 
+[![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://forthebadge.com) 
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-hipsters.svg)](https://forthebadge.com) 
 
 oleh:
 
-[Sandy H.S. Herho](mailto:sandy.herho@igdore.org)
-
-[Dasapta E. Irawan](mailto:r-win@office.itb.ac.id)
+[Sandy H.S. Herho](mailto:sandy.herho@igdore.org) dan [Dasapta E. Irawan](mailto:r-win@office.itb.ac.id)
 
 <p style="text-align:justify">Tutorial ini merupakan kumpulan materi yang kami sampaikan di dalam pelatihan dasar eksplorasi data menggunakan R. Namun, tutorial ini juga dapat dimanfaatkan untuk berbagai kepentingan lain di luar pelatihan yang dimaksud.</p> 
 

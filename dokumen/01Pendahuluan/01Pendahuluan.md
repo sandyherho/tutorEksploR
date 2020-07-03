@@ -31,3 +31,23 @@ jupyter notebook
     ```(bash)
     conda deactivate
     ```
+
+## Materi 
+
+Pada tutorial ini kami tidak akan membahas tentang penggunaan algoritma - algoritma pemelajaran mesin pada R, melainkan lebih terfokus pada metode statistika klasik dan eksplorasi data menggunakan R. Berikut ini susunan materi yang kami sampaikan dalam tutorial ini:
+
+1. Dasar - dasar pemrograman
+2. Matriks
+3. Data Frame
+4. List
+5. Penanganan data tabular
+6. Konsep inti pemrograman
+7. Konsep pemrograman lanjut
+8. Manipulasi data
+9. Visualisasi data menggunakan *Base* R
+10. Penanganan data kuantitatif dan kualitatif
+11. Statistika deskriptif
+12. Data bivariat dan multivariat
+13. Distribusi peluang
+14. Statistika inferensi
+15. Visualisasi data menggunakan `ggplot2`

@@ -1,9 +1,7 @@
 # Tutorial eksplorasi data menggunakan R
 
 [![DOI](https://zenodo.org/badge/240019119.svg)](https://zenodo.org/badge/latestdoi/240019119)
-
 [![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)](https://forthebadge.com) 
-
 [![forthebadge](https://forthebadge.com/images/badges/built-by-hipsters.svg)](https://forthebadge.com) 
 
 oleh:
